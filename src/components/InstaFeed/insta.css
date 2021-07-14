@@ -1,0 +1,36 @@
+.insta {
+  margin: 50px auto;
+}
+.insta h1 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 250px 250px;
+  margin-top: 40px;
+}
+.my-grid img {
+  width: 100%;
+  height: 100%;
+}
+.insta button,
+.distributor button {
+  background-color: #fcd805;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.insta button:hover,
+.distributor button:hover {
+  background-color: #a38c0b;
+}
+.insta-icon {
+  width: 60px;
+}
